@@ -1,0 +1,185 @@
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../font/Roboto-Regular.ttf) format('woff2');
+}
+
+*{
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+ h2{
+    color: aliceblue;
+ }
+
+a { 
+    text-decoration: none;   }
+
+ul {
+    display: flex;
+    justify-content:center;
+    text-decoration: none; 
+    margin: 20px;   
+}
+
+ .menu il {
+    text-decoration: none; 
+    margin-right: 20px; /* Ajoute une marge à droite de chaque élément */
+}
+
+.image-container{ 
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 300px;
+    background-image: url('../img/banner.jpg ');
+    background-size: cover; /* Adapte l'image pour couvrir l'intégralité du conteneur */      
+}
+
+img{
+
+    width: 550px;
+ }
+
+article{
+   margin-top: 50px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;   
+}
+
+article p{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+article a{ 
+    color: aliceblue;
+    border-radius: 6px;
+    background-color: brown;
+    width: 120px;
+    height: 30px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 5px;
+
+}  
+
+.parti2{
+    margin-top: 55px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction:row;
+    height:455px ;
+    
+}
+#ACTUALITES{
+    margin-top: 88px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.parti2 img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.monstres{
+    color: aliceblue;
+    border: 1px solid black;
+    background-color: rgb(40, 44, 47);
+    width: 250px;
+    height: 350px;
+    text-align: left; 
+}
+
+.monstres h4, p {
+    margin: 20px;
+}
+
+.graphique{
+    background-color: rgb(40, 44, 47);
+    color: aliceblue;
+    width: 250px;
+    height: 350px;
+    text-align: left;
+    
+}
+.Gameplay{
+    background-color: rgb(40, 44, 47);
+    color: aliceblue;
+    width: 250px;
+    height: 350px;
+    text-align: left;
+    
+}
+.subscribe-container{
+    padding-top: 50px;
+    color: aliceblue;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    margin-top: 33px;
+}
+
+
+.subscribe-button{
+    height: 30px;
+    width: 80px;
+     background-color:rgb(208, 18, 18);
+     margin-top: 10px;
+}
+
+.subscribe-input{
+
+    height: 30px;
+    width: 230px;
+    border-radius: 10px;
+    margin-top: 10px;
+
+    
+
+}
+
+footer{
+    
+    color: aliceblue;
+    background-color: rgb(81, 81, 81);
+
+}
+footer ul{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    background-color: black;
+    width: 100%;
+    height: 55px;
+}
+
+footer ul img{
+
+    display: flex;
+    position: relative;
+    right: 200px;
+    top: 00px;
+     width: 100px;
+    height: 20px;
+}
+
+footer ul li{
+
+    margin: 15px;
+}
