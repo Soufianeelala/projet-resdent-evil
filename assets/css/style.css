@@ -15,8 +15,7 @@
 
 
 /* Styles spécifiques pour les grands écrans desktop (à partir de 1200px) */
-    body {
-
+ 
    
 header a{
     padding-right: 15px;  
@@ -54,7 +53,7 @@ header ul {
 
 
 .image-container{ 
-     display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -75,6 +74,7 @@ article{
     justify-content: center;
     flex-direction: column;
     align-items: center;   
+    text-align: center;
 }
 
 article p{
@@ -131,6 +131,7 @@ article a{
     width: 250px;
     height: 350px;
     text-align: left; 
+  
 }
 
 .parti2 h4, p {
@@ -197,17 +198,15 @@ footer ul{
    align-items: center;
     background-color: black;
     width: 100%;
-    height: 55px;
 }
 
 footer ul img{
 
     display: flex;
-    position: relative;
-    right: 200px;
-    top: 00px;
+    
      width: 100px;
     height: 20px;
+    margin-right: auto;
 }
 
 footer ul li{
@@ -226,25 +225,60 @@ footer a{
     padding-right: 15px;
     color: aliceblue;
 }
-}
+
     
 /* Styles spécifiques pour les grands écrans desktop (à partir de 1200px) */
 @media screen and ( max-width: 900px) {
 
+
+
+ 
+    .menu il { 
+        border: 0cap;
+
+    }
+    header ul {
+        flex-direction: column;
+        align-items: center;
+
+
+
+    }
+        
     .parti2{ 
         flex-direction: column;
        
         align-items: center;
+ 
     }
-    article a {
-        background-color: rgb(21, 255, 0);
+    .graphique{
+
+    margin: 14px;
+
     }
-   
-        
-    .monstres{
+    footer ul  {
+        flex-direction: column;
        
-        background-color: rgb(90, 228, 129);
     }
     
+    footer ul li{
 
+        margin: 15px;
+       border: 0cap;
+    }
+    footer ul img{
+        margin-right: 0px;
+       
+    }
+    header img{
+        width: 90%;
+    }
+    .article  p ,h3 {
+
+  
+       
+    align-items: center;
+    
+ }
+ 
 }
