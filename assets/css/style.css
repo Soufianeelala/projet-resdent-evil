@@ -12,24 +12,46 @@
     list-style: none;
 }
 
+
+
+/* Styles spécifiques pour les grands écrans desktop (à partir de 1200px) */
+    body {
+
+   
+header a{
+    padding-right: 15px;  
+}
+
+
+
  h2{
     color: aliceblue;
  }
 
 a { 
     text-decoration: none;   }
+    
+header a:hover{
 
-ul {
+    color: aquamarine;
+}
+
+
+header ul {
     display: flex;
     justify-content:center;
     text-decoration: none; 
-    margin: 20px;   
+     margin: 20px;    
 }
 
  .menu il {
     text-decoration: none; 
     margin-right: 20px; /* Ajoute une marge à droite de chaque élément */
+    margin: 5px;
+    border-right: solid 1px rgb(8, 8, 8);
 }
+
+
 
 .image-container{ 
      display: flex;
@@ -37,7 +59,7 @@ ul {
     justify-content: center;
     align-items: center;
     width:100%;
-    height: 300px;
+    height: 450px;
     background-image: url('../img/banner.jpg ');
     background-size: cover; /* Adapte l'image pour couvrir l'intégralité du conteneur */      
 }
@@ -72,8 +94,14 @@ article a{
     justify-content:center;
     align-items: center;
     padding: 5px;
+    
 
 }  
+
+ a:hover{
+
+    color: aquamarine;
+}
 
 .parti2{
     margin-top: 55px;
@@ -81,8 +109,7 @@ article a{
     margin-right: 5%;
     display: flex;
     justify-content:space-evenly;
-    flex-direction:row;
-    height:455px ;
+   
     
 }
 #ACTUALITES{
@@ -106,7 +133,7 @@ article a{
     text-align: left; 
 }
 
-.monstres h4, p {
+.parti2 h4, p {
     margin: 20px;
 }
 
@@ -139,8 +166,11 @@ article a{
 .subscribe-button{
     height: 30px;
     width: 80px;
-     background-color:rgb(208, 18, 18);
-     margin-top: 10px;
+    background-color:rgb(208, 18, 18);
+    margin-top: 10px;
+    border-radius: 10px;
+
+
 }
 
 .subscribe-input{
@@ -149,7 +179,8 @@ article a{
     width: 230px;
     border-radius: 10px;
     margin-top: 10px;
-
+    padding-left: 5px;
+    
     
 
 }
@@ -182,4 +213,38 @@ footer ul img{
 footer ul li{
 
     margin: 15px;
+    border-right: solid 1px white;
+}
+
+       
+button:hover {
+
+    color: aquamarine;
+}
+footer a{
+
+    padding-right: 15px;
+    color: aliceblue;
+}
+}
+    
+/* Styles spécifiques pour les grands écrans desktop (à partir de 1200px) */
+@media screen and ( max-width: 900px) {
+
+    .parti2{ 
+        flex-direction: column;
+       
+        align-items: center;
+    }
+    article a {
+        background-color: rgb(21, 255, 0);
+    }
+   
+        
+    .monstres{
+       
+        background-color: rgb(90, 228, 129);
+    }
+    
+
 }
